@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4de068a147.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+
+            <div class="ammount">
+                <p>Enter Ammount</p>
+                <input type="text" value="100">
+            </div>
+
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from">
+                            <option value="USD" selected>USD</option>
+                            <option value="ISR">INR</option>
+                            <option value="EUR">EUR</option>
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png"" alt="">
+                    <select name=" to">
+                    <option value="INR" selected>INR</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    </select>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
